@@ -1,0 +1,11 @@
+import express from 'express'
+import * as rutasProductos from './modulos/productos/rutas.productos.mjs'
+//import productos from './productos.mjs'
+
+const PUERTO = 3000
+
+const app = express()
+
+app.use(rutasProductos)
+
+app.listen(PUERTO)
