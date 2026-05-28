@@ -1,5 +1,5 @@
 -- Conectar a la base de datos 'tienda'
-\c bdLibros;
+\c libros;
 
 -- Crear la tabla 'productos'
 CREATE TABLE productos (
